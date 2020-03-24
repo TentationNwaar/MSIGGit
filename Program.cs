@@ -43,8 +43,7 @@ namespace HelloCar
                 Car carUser1 = new Car(carName);
                 cars[i] = carUser1;
 
-                Console.WriteLine("Nom de la voiture : " +(i+1+" ") + carUser1.name);
-                Console.WriteLine("Nom de la voiture : " + (i + 1 + " ") + carUser1.name);
+                Console.WriteLine("Nom de la voiture : " +(i+1+" ") + carUser1.name)
 
 
             }
